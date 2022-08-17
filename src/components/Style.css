@@ -1,0 +1,30 @@
+/* ...... RegistrationImage .... */
+
+.mainregistration{
+display: flex;
+flex-direction: row;
+}
+/* .....Login Page..... */
+
+.mainlogin{
+  display: flex;
+flex-direction: row;
+}
+
+
+@media screen 
+  and (min-width: 300px) 
+  and (max-width: 1100px) {
+.registrationimage , .loginimage{
+  display: none;
+}
+.mainregistration , .mainlogin{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  }
+
+
+
+
